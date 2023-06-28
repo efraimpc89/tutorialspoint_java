@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,48 +32,51 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "tutorialspoint/src/main/resources/chromedriver.exe");
 
         // Create an instance of ChromeDriver
-        ChromeDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--start-maximized");
+        ChromeDriver driver = new ChromeDriver(options);
 
-        // Create a WebDriverWait instance with a timeout of 10 seconds
+        //Create a WebDriverWait instance with a timeout of 10 seconds
         WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(10));
 
-        // Navigate to tutorialspoint website
+        //Navigate to tutorialspoint website
         driver.get("https://www.tutorialspoint.com/html/html_iframes.htm");
 
-        //click agree button
+        //Click agree button on popup
         driver.findElement(By.xpath("//a[text()='Agree']")).click();
 
-        //switch to iframes
+        //Switch to corresponding iframe
         WebElement iframe_Result = driver.findElement(By.xpath("//iframe[@class='result']"));
         driver.switchTo().frame(iframe_Result);
         WebElement iframe_Result_2 = driver.findElement(By.xpath("//iframe[@src='/html/menu.htm']"));
         scrollToElement(driver, iframe_Result_2);
         driver.switchTo().frame(iframe_Result_2);
-        //sleep(1000);
 
-        //click agree button inside iframes
+        //Click agree button inside iframes
         WebElement btnAgreeInIframe = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Agree']")));
         btnAgreeInIframe.click();
 
-        //click About Us
+        //Click About Us inside iframe
         WebElement link_AboutUs = driver.findElement(By.xpath("//a[@href = '/about/index.htm']"));
         scrollToBottom(driver);
         link_AboutUs.click();
 
-        //switch to new page iframe
+        //Switch to new page iframe
         driver.switchTo().defaultContent();
         driver.switchTo().frame(iframe_Result);
         WebElement iframe_Result_3 = driver.findElement(By.xpath("//iframe[@src='/html/menu.htm']"));
         driver.switchTo().frame(iframe_Result_3);
 
-        //prints url of the new page
+        //Prints url of the new page
         System.out.println("Page URL: " + driver.getCurrentUrl());
 
-        //prints all a, button and input text elements and appends it to output.txt file
+        //Prints all a, button and input text elements and appends it to output.txt file
         traverseElements(driver);
 
-        //clicks on login button
+        //Clicks on login button on default content
         driver.switchTo().defaultContent();
         By by_btnLogin = By.xpath("//a[@href = 'https://www.tutorialspoint.com/market/login.asp']");
         WebElement btnLogin = driver.findElement(by_btnLogin);
@@ -83,7 +87,7 @@ public class Main {
         scrollToElement(driver, btn_signUp);
         btn_signUp.click();
 
-        //Go to https://www.fakemail.net/ to use it for sign up
+        //Go to https://www.fakemail.net/ to use it for signing up
         driver.executeScript("window.open()");
         Set<String> handles = driver.getWindowHandles();
         String tutorialsPointTab = driver.getWindowHandle();
@@ -108,6 +112,10 @@ public class Main {
         driver.findElement(By.id("user_password")).sendKeys(testPassword);
         driver.findElement(By.id("validate_email_id")).click();
 
+        //Append email and password used to file
+        appendToFile("user_email: " +testEmail);
+        appendToFile("user_password: " +testPassword);
+
         //Go back to the fake email tab
         driver.switchTo().window(fakeEmailTab);
 
@@ -123,6 +131,7 @@ public class Main {
 
         //Output the confirmation OTP
         System.out.println("OTP: " + confirmationOTP);
+        appendToFile("Fake email OTP: " +testEmail);
 
         //Switch back to tutorialspoint.com and validates email
         driver.switchTo().window(tutorialsPointTab);
@@ -147,9 +156,7 @@ public class Main {
         sleep(1000); //there is a delay in login button after password is set
         btnFormLogin.click();
 
-        //Append user email/password to file
-        appendToFile("user_email: " +testEmail);
-        appendToFile("user_password: " +testPassword);
+        //Append something to separate executions
         appendToFile("------------------------------------------------");
 
         //Quit driver
