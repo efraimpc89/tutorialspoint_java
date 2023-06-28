@@ -1,15 +1,18 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 import static java.lang.Thread.sleep;
 
@@ -28,8 +31,11 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "tutorialspoint/src/main/resources/chromedriver.exe");
 
         // Create an instance of ChromeDriver
-        WebDriver driver = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+
+        // Create a WebDriverWait instance with a timeout of 10 seconds
+        WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(10));
 
         // Navigate to tutorialspoint website
         driver.get("https://www.tutorialspoint.com/html/html_iframes.htm");
@@ -43,10 +49,11 @@ public class Main {
         WebElement iframe_Result_2 = driver.findElement(By.xpath("//iframe[@src='/html/menu.htm']"));
         scrollToElement(driver, iframe_Result_2);
         driver.switchTo().frame(iframe_Result_2);
-        sleep(1000);
+        //sleep(1000);
 
         //click agree button inside iframes
-        driver.findElement(By.xpath("//a[text()='Agree']")).click();
+        WebElement btnAgreeInIframe = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Agree']")));
+        btnAgreeInIframe.click();
 
         //click About Us
         WebElement link_AboutUs = driver.findElement(By.xpath("//a[@href = '/about/index.htm']"));
@@ -64,28 +71,89 @@ public class Main {
 
         //prints all a, button and input text elements and appends it to output.txt file
         traverseElements(driver);
-        appendToFile("------------------------------------------------");
 
         //clicks on login button
         driver.switchTo().defaultContent();
-        WebElement btn_login = driver.findElement(By.xpath("//a[@href = 'https://www.tutorialspoint.com/market/login.asp']"));
-        btn_login.click();
+        By by_btnLogin = By.xpath("//a[@href = 'https://www.tutorialspoint.com/market/login.asp']");
+        WebElement btnLogin = driver.findElement(by_btnLogin);
+        btnLogin.click();
 
         //clicks on sign up button
         WebElement btn_signUp = driver.findElement(By.xpath("//a[@href = 'signup.jsp']"));
         scrollToElement(driver, btn_signUp);
         btn_signUp.click();
 
-        //fills sign up form
-        driver.findElement(By.id("textRegName")).sendKeys("Test user");
-        driver.findElement(By.id("phone")).sendKeys("1234567890");
-        driver.findElement(By.id("textSRegEmail")).sendKeys("test@test.com");
-        driver.findElement(By.id("user_password")).sendKeys("testpassword1");
+        //Go to https://www.fakemail.net/ to use it for sign up
+        driver.executeScript("window.open()");
+        Set<String> handles = driver.getWindowHandles();
+        String tutorialsPointTab = driver.getWindowHandle();
+        handles.remove(tutorialsPointTab);
+        String fakeEmailTab = handles.iterator().next();
+        driver.switchTo().window(fakeEmailTab);
+        driver.get("https://www.fakemail.net/");
 
-        //Here I would create a logic to login if creating an account didnt require a verification step.
+        //Copy the new random email
+        String testEmail = driver.findElement(By.id("email")).getText();
+
+        //Switch back to tutorialspoint.com
+        driver.switchTo().window(tutorialsPointTab);
+
+        //Fills sign up form
+        String testPassword = "testpassword1";
+        driver.findElement(By.id("textRegName")).sendKeys("Test user");
+        driver.findElement(By.id("phone")).sendKeys(generateRandomPhoneNumber());
+        Select countrySelector = new Select(driver.findElement(By.id("country_code")));
+        countrySelector.selectByValue("52");
+        driver.findElement(By.id("textSRegEmail")).sendKeys(testEmail);
+        driver.findElement(By.id("user_password")).sendKeys(testPassword);
+        driver.findElement(By.id("validate_email_id")).click();
+
+        //Go back to the fake email tab
+        driver.switchTo().window(fakeEmailTab);
+
+        //Open the confirmation email
+        String otpEmailSelector = "//td[text()='Signup One Time Password (OTP)']";
+        WebElement otpEmail = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(otpEmailSelector)));
+        otpEmail.click();
+
+        //Copy the registration One time password code
+        WebElement iframeConfirmationEmail = driver.findElement(By.id("iframeMail"));
+        driver.switchTo().frame(iframeConfirmationEmail);
+        String confirmationOTP = driver.findElement(By.cssSelector("p[style*='color:#fff;']")).getText();
+
+        //Output the confirmation OTP
+        System.out.println("OTP: " + confirmationOTP);
+
+        //Switch back to tutorialspoint.com and validates email
+        driver.switchTo().window(tutorialsPointTab);
+        driver.findElement(By.id("txtEmailValidateOTP")).sendKeys(confirmationOTP);
+        driver.findElement(By.id("validateEmailOtp")).click();
+        WebElement btnSignUp = wait.until(ExpectedConditions.elementToBeClickable(By.id("signUpNew")));
+        btnSignUp.click();
+
+        //Logout
+        WebElement btnSkipMobileOTP = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("skipMobileOtp")));
+        btnSkipMobileOTP.click();
+        WebElement btnProfileImage = wait.until(ExpectedConditions.elementToBeClickable(By.id("profileImage")));
+        btnProfileImage.click();
+        driver.findElement(By.cssSelector("a.logout")).click();
+
+        //Login again with new account
+        btnLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a.btn[href*='login']")));
+        btnLogin.click();
+        driver.findElement(By.id("user_email")).sendKeys(testEmail);
+        driver.findElement(By.id("user_password")).sendKeys(testPassword);
+        WebElement btnFormLogin = wait.until(ExpectedConditions.elementToBeClickable(By.id("user_login")));
+        sleep(1000); //there is a delay in login button after password is set
+        btnFormLogin.click();
+
+        //Append user email/password to file
+        appendToFile("user_email: " +testEmail);
+        appendToFile("user_password: " +testPassword);
+        appendToFile("------------------------------------------------");
 
         //Quit driver
-        sleep(3000);
+        sleep(5000); //Enough time to check what's on screen before it closes
         driver.quit();
     }
 
@@ -138,5 +206,20 @@ public class Main {
         sleep(1000);
     }
 
+    public static String generateRandomPhoneNumber() {
+        Random random = new Random();
+        StringBuilder phoneNumberBuilder = new StringBuilder();
+
+        //Ensure the first digit is not zero
+        int firstDigit = random.nextInt(9) + 1;
+        phoneNumberBuilder.append(firstDigit);
+
+        //Generate the remaining 9 digits
+        for (int i = 0; i < 9; i++) {
+            int digit = random.nextInt(10);
+            phoneNumberBuilder.append(digit);
+        }
+        return phoneNumberBuilder.toString();
+    }
 
 }

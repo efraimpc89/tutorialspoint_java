@@ -1,0 +1,102 @@
+Element tag: a, Text:Home, href:https://www.tutorialspoint.com/index.htm
+Element tag: a, Text:Coding Ground, href:https://www.tutorialspoint.com/codingground.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_careers.htm
+Element tag: a, href:https://www.tutorialspoint.com/whiteboard.htm
+Element tag: a, href:https://www.tutorialspoint.com/online_dev_tools.htm
+Element tag: a, href:https://www.tutorialspoint.com/business/index.asp
+Element tag: a, href:https://www.tutorialspoint.com/market/teach_with_us.jsp
+Element tag: a, href:https://www.facebook.com/tutorialspointindia
+Element tag: a, href:https://www.instagram.com/tutorialspoint_/
+Element tag: a, href:https://twitter.com/tutorialspoint
+Element tag: a, href:https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+Element tag: a, href:https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEkqX2eckF__gAAAX-wMwEYvrsjBVbEtWQd4pgEdVSzkL22Nik1KEpY_ECWLKDGc41z8IOZWr2Bb0fvJplT60NPBtSw87J6QCpc7wD4qQ3iU13n6xJtBxME5o05Wmpg5JPm5YY=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftutorialspoint
+Element tag: a, href:https://www.tutorialspoint.com/index.htm
+Element tag: button, type:button
+Element tag: button, type:button
+Element tag: a
+Element tag: a, href:javascript:void(0);
+Element tag: a, href:https://www.tutorialspoint.com/academic_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/big_data_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/computer_programming_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/computer_science_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/database_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/devops_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/digital_marketing_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/engineering_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/upsc_ias_exams.htm
+Element tag: a, href:https://www.tutorialspoint.com/famous_monuments.htm
+Element tag: a, href:https://www.tutorialspoint.com/gate_exams_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/latest_technologies.htm
+Element tag: a, href:https://www.tutorialspoint.com/machine_learning_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/mainframe_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/management_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/maths_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/microsoft_technologies_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/misc_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/mobile_development_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/java_technology_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/python_technologies_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/sap_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/scripting_lnaguage_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/selected_reading.htm
+Element tag: a, href:https://www.tutorialspoint.com/software_quality_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/soft_skill_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/telecom_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/upsc_ias_exams.htm
+Element tag: a, href:https://www.tutorialspoint.com/web_development_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/sports_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/xml_technologies_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/multi_language_tutorials.htm
+Element tag: a, href:https://www.tutorialspoint.com/questions_and_answers.htm
+Element tag: button, type:button
+Element tag: a, href:https://www.tutorialspoint.com/latest/prime-packs
+Element tag: a, href:https://www.tutorialspoint.com/market/index.asp
+Element tag: a, href:https://www.tutorialspoint.com/latest/ebooks
+Element tag: a, href:https://www.tutorialspoint.com/tutorialslibrary.htm
+Element tag: a, href:https://www.tutorialspoint.com/articles/index.php
+Element tag: a, Text:Login, href:https://www.tutorialspoint.com/market/login.asp
+Element tag: a, href:https://www.tutorialspoint.com/about/index.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_team.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_careers.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_privacy.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_cookies.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_terms_of_use.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/return_refund_policy.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/tutorials_writing.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/guidelines_for_freelancers.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/faq.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/about_helping.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/contact_us.htm
+Element tag: a, href:https://www.tutorialspoint.com/upsc_ias_exams.htm
+Element tag: a, href:https://www.tutorialspoint.com/developers_best_practices/index.htm
+Element tag: a, href:https://www.tutorialspoint.com/questions_and_answers.htm
+Element tag: a, href:https://www.tutorialspoint.com/effective_resume_writing.htm
+Element tag: a, href:https://www.tutorialspoint.com/hr_interview_questions/index.htm
+Element tag: a, href:https://www.tutorialspoint.com/computer_glossary.htm
+Element tag: a, href:https://www.tutorialspoint.com/computer_whoiswho.htm
+Element tag: a, Text:Previous Page, href:https://www.tutorialspoint.com/about/index.htm
+Element tag: a, Text:Print Page, href:https://www.tutorialspoint.com/about/index.htm#
+Element tag: a, Text:Next Page  , href:https://www.tutorialspoint.com/about/about_team.htm
+Element tag: a, Text:Annual Membership
+Enjoy unlimited access on 5500+ Hand Picked Quality Video Courses
+Subscribe Now, href:https://www.tutorialspoint.com/market/business/subscription.jsp
+Element tag: a, Text:Training for a Team
+Affordable solution to train a team and make them project ready.
+Request a Demo, href:https://www.tutorialspoint.com/business/index.asp#demoRequest
+Element tag: a, href:https://www.tutorialspoint.com/index.htm
+Element tag: a, Text:About us, href:https://www.tutorialspoint.com/about/index.htm
+Element tag: a, Text:Refund Policy, href:https://www.tutorialspoint.com/about/return_refund_policy.htm
+Element tag: a, Text:Terms of use, href:https://www.tutorialspoint.com/about/about_terms_of_use.htm
+Element tag: a, Text:Privacy Policy, href:https://www.tutorialspoint.com/about/about_privacy.htm
+Element tag: a, Text:FAQ's, href:https://www.tutorialspoint.com/about/faq.htm
+Element tag: a, Text:Contact, href:https://www.tutorialspoint.com/about/contact_us.htm
+Element tag: a, href:https://www.tutorialspoint.com/about/index.htm#
+Element tag: a, href:https://www.tutorialspoint.com/about/about_cookies.htm
+Element tag: a, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+Element tag: a, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+Element tag: a, Text:Aeromexico, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+Element tag: a, Text:Patrocinado, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+Element tag: a, Text:¡Descubre más destinos!, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+Element tag: a, Text:RESERVA AHORA
+⌃, href:https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C8VP-wNybZLDFJsqGxAOStK6YDNza-4Nv5tOIj8cRoqeqxfQhEAEgjs-SJGDl2_qEvBagAebl3JoDyAEGqQJu-LmpIGtvPqgDAaoEigJP0O5Txp8qA0TmCId3fAabotfEEa822ZLp8hi3AGUJCT0M0_a_mZ4nwqBjRdLCNuL_aJDk1evDi5BD6pNQkTXGr6CdQZfvd4rF11C5ThlJb1GVfrAF6mk1MhuT0Lm4C2XBo0if53JpUOVXQ1dPpAtj4WkK3OF_YeJJZmLAyBeQiGrsd2r-mXMPCi50hPfWR2Mm-jqG1sN5DLit20JyfoJUtvsS9Dvk-I-WeoWEvTEIHoNdR52SwmAiUmyrNZ_y60jyxnRxkmr2bZQSDWbuUrlMExGeHuFBA_DwfH7QpmaQ9uQ2Qm1kN0GW_uMafHg79tHMGnGWjYK_hru2JhfXQe1a614eE9-Eaa8BssAE0qCA4p4E4AQDkAYBoAY3gAeCmqNlqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHpKOxAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7EC2AcB0ggUCIBhEAEYXzICigI6AoBASL39wTryCAxiaWRkZXItODg1ODOxCfO0l5w1S5IUgAoEmAsByAsBsBOy9u4T0BMA2BMDiBQe2BQB0BUBmBYB-BYBgBcB&num=1&cid=CAQSKQBygQiDsxFI5_-4veBglzGQg7O3RN39XCd0JkwC6iFrC7--Svr-DJeaGAE&sig=AOD64_3MkwMb5Ks-fPiD6OhtQr8F3Z0K9A&client=ca-pub-6513011533210025&dbm_c=AKAmf-CbatBa_rLZ___02JQ79Rjx5YQERPfYOc8H1dfnzyYb1ZacLB0Z6iguhGiP36zPh3QXNfzf6k8NJMVB1LYMtoNjCBMAiA&dbm_d=AKAmf-ACXIX184DFh5Ayt_Hu1uHsUcHg_t2CVKvIhtJeykGYQK6nfL1dB2vVN1z5dIDGfRNerNH2mgGQNJefSNDZcqlXGcpSSG17UnjJRHcnEemSiq_kG2g7YNwXw2hzadCMXb9EfQ2OgXXveft1A-GwI0RuEQGl8H-r8b8mSTNfa_ItQur_NgSPcgAezEsisJ3JMbBb_wbuJJcINJ25Ti7DG52nTuwoAhOEdwuG6JNzh5Dwt5OxWA94OMtd769xBzRQzHSOmi4g47R86fKsIfgpSnlH8hPYPa94DNkDCFhq3DHwDuklzPKpw0tDcWw8x45KMxT41Ww1DKPcJINx4ZAGdlTFmaz9OLvYtzfe3KRj-DXx34vZPl246a5pmNz6_bKZizbfx9lV&dc_exteid=31136926959339097030680271179700841&dc_pubid=4&adurl=https://aeromexico.com/es-mx
+------------------------------------------------
